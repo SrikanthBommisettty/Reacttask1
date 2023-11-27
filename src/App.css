@@ -50,7 +50,7 @@
 }
 
 .nav-bar {
-  background-color: #eee;
+  background-color: #080808;
   padding: 10px;
   font-size: 20px;
   
@@ -64,8 +64,8 @@
 }
 #btns{
   width: 100px;
-  background-color: brown;
-  border: 1px solid red;
+  background-color: aqua;
+  border: 1px solid rgb(4, 3, 3);
   border-radius: 9px;
 }
 #signs{
@@ -101,4 +101,54 @@ th, td {
 th {
   background-color: #f2f2f2;
 }
-
+.datepicker{
+  margin: 20px;
+  padding: 10px;
+  font-size: 20px;
+  font-weight: 700;
+  color: rgb(132, 165, 42);
+  text-align: left;
+}
+.formdetails{
+  text-align: left;
+  color: blue;
+  font-size: 20px;
+  font-weight: 700;
+  padding: 20px;
+  margin: 30px;
+}
+.gender{
+  text-align: left;
+  color: black;
+  font-weight: 700;
+  font-size: 20px;
+  padding: 20px;
+  margin: 30px;
+}
+.percentage{
+  text-align: left;
+  color: rgb(0, 106, 255);
+  font-size: 20px;
+}
+.time{
+  text-align: left;
+  color: green;
+  font-size: 20px;
+  font-weight: 700;
+}
+.click{
+  text-align: left;
+  color: rgb(13, 13, 14);
+  font-size: 20px;
+  font-family: 700;
+}
+.subbtn{
+  width: 90px;
+  padding: 10px;
+  margin: 10px;
+  background-color: rgb(30, 143, 178);
+  border: 1px solid rgb(45, 30, 178);
+  font-size: 20px;
+  cursor: pointer;
+  border-radius: 9px;
+}

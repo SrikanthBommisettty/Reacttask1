@@ -38,10 +38,10 @@ const App = () => {
   return (
     <div className="App">
       <header className="menu-bar">
-        <h1>MY COMPANY DETAILS</h1>
+        <h1>EKIP IT SOLUTIONS EMPLOYEE DETAILS</h1>
         <p>Welcome to see the company details</p>
       </header>
-
+      
       <nav className="nav-bar">
         <ul>
           <li id="btns" onClick={() => navigateTo('home')}>Home</li>
@@ -54,13 +54,13 @@ const App = () => {
         {loggedIn ? (
           <div>
             <h2>Welcome, Lets go through the Details </h2>
-            <button id="signs" onClick={handleSignOut}>Sign Out</button>
+            <button id="signs" onClick={handleSignOut}>Click to hide details</button>
             {renderPage()}
           </div>
         ) : (
           <div>
             <h2>Please Sign In to see the Company Details</h2>
-            <button id="signs" onClick={handleSignIn}>Sign In</button>
+            <button id="signs" onClick={handleSignIn}>Click to show Details</button>
           </div>
         )}
       </main>
